@@ -8,6 +8,12 @@ import com.algorithms.xzx.file.WriteAndReadFile;
  */
 public class Insertion {
 
+    /**
+     * 插入排序：
+     * 依次插入已排好序的元素中
+     *
+     * @param a
+     */
     public static void sort(int[] a) {
         // 升序
         int N = a.length;

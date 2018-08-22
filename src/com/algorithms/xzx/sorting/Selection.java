@@ -8,6 +8,13 @@ import com.algorithms.xzx.file.WriteAndReadFile;
  */
 public class Selection {
 
+
+    /**
+     * 选择排序：
+     * 选择最小的，然后换到最前面
+     *
+     * @param a
+     */
     public static void sort(int[] a) {
         // 升序
         int N = a.length;
