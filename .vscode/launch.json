@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Insertion",
+            "request": "launch",
+            "mainClass": "com.algorithms.xzx.sorting.Insertion"
+        }
+    ]
+}

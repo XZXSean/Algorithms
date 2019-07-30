@@ -7,8 +7,10 @@ import com.algorithms.xzx.file.WriteAndReadFile;
  * @create 2018-08-22 16:07
  */
 public class Shell {
-
-
+    /**
+     * 分成 h，用插入排序完成
+     * @param a
+     */
     public static void sort(int[] a) {
         // 升序
         int N = a.length;
