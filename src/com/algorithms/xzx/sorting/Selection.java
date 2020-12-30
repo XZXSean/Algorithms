@@ -33,8 +33,8 @@ public class Selection {
 
     public static void main(String[] args) {
         int[] a = WriteAndReadFile.readFromFile();
-        //WriteAndReadFile.show(a);
-        // System.out.println("");
+        WriteAndReadFile.show(a);
+        System.out.println("\n");
         sort(a);
         WriteAndReadFile.show(a);
     }

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="">
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="update for nothing 2020.12.30">
+      <change afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/practice/Chapter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/xzx/file/WriteAndReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/file/WriteAndReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/file/WriteAndReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/file/WriteAndReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Insertion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Shell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Shell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/Selection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +122,9 @@
     <option name="height" value="990" />
   </component>
   <component name="ProjectId" id="1mNEYCrJYKyaBPkpnsZlmJwzKro" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -187,18 +199,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Shell">
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.Insertion" />
+  <component name="RunManager" selected="Application.Chapter1">
+    <configuration name="Chapter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.practice.Chapter1" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.xzx.sorting.*" />
+          <option name="PATTERN" value="com.algorithms.xzx.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,13 +268,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,17 +284,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Selection" />
-      <item itemvalue="Application.Insertion" />
       <item itemvalue="Application.WriteAndReadFile" />
       <item itemvalue="Application.Shell" />
+      <item itemvalue="Application.Chapter1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Selection" />
         <item itemvalue="Application.Shell" />
         <item itemvalue="Application.WriteAndReadFile" />
-        <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.Insertion" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +312,8 @@
       <workItem from="1534777323017" duration="1206000" />
       <workItem from="1534846124794" duration="5368000" />
       <workItem from="1534904993932" duration="8301000" />
-      <workItem from="1609325698288" duration="301000" />
+      <workItem from="1609325698288" duration="830000" />
+      <workItem from="1609326604932" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -320,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534927549143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update for nothing 2020.12.30">
+      <created>1609326096168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609326096168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -371,11 +394,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译" />
+    <MESSAGE value="update for nothing 2020.12.30" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for nothing 2020.12.30" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
