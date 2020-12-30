@@ -92,6 +92,6 @@ public class WriteAndReadFile {
 
     public static void main(String[] args) {
         writeToFile();
-        //readFromFile();
+//        readFromFile();
     }
 }
