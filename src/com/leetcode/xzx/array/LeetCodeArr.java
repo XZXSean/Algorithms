@@ -1,7 +1,5 @@
 package com.leetcode.xzx.array;
 
-import java.util.Arrays;
-
 /**
  * @author: zhixiang.xiao
  * @create: 2021/1/3 12:19
@@ -44,13 +42,6 @@ public class LeetCodeArr {
         }
         // 列交换：
         showTwoMatrix(matrix);
-        /* // 行交换
-        int[] temp;
-        for (int i = 0; i < matrix.length / 2; i++) {
-            temp = matrix[i];
-            matrix[i] = matrix[matrix.length - i - 1];
-            matrix[matrix.length - i - 1] = temp;
-        }*/
     }
 
     /**
@@ -70,9 +61,9 @@ public class LeetCodeArr {
     }
 
     public static void showTwoMatrix(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
+        for (int[] ints : matrix) {
             for (int j = 0; j < matrix[0].length; j++) {
-                System.out.print(matrix[i][j] + "\t");
+                System.out.print(ints[j] + "\t");
             }
             System.out.println();
         }
