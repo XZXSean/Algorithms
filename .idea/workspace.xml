@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="update for nothing 2020.12.30">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/array/LeetCodeArr.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="归并排序">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/xzx/array/LeetCodeArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/array/LeetCodeArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +190,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -198,7 +200,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.LeetCodeArr">
     <configuration name="Chapter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.practice.Chapter1" />
       <module name="algorithms" />
@@ -283,9 +285,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCodeArr" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Shell" />
-        <item itemvalue="Application.LeetCodeArr" />
         <item itemvalue="Application.Chapter1" />
         <item itemvalue="Application.Main" />
       </list>
@@ -308,7 +310,7 @@
       <workItem from="1609325698288" duration="830000" />
       <workItem from="1609326604932" duration="5488000" />
       <workItem from="1609647310693" duration="10593000" />
-      <workItem from="1609733511297" duration="328000" />
+      <workItem from="1609733511297" duration="3503000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -345,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609334067012</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="归并排序">
+      <created>1609733988502</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609733988502</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -391,7 +400,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -401,7 +416,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译" />
     <MESSAGE value="update for nothing 2020.12.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for nothing 2020.12.30" />
+    <MESSAGE value="归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并排序" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
