@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="update for nothing 2020.12.30">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/practice/Chapter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/array/LeetCodeArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/file/WriteAndReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/file/WriteAndReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Insertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Shell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/xzx/sorting/Shell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/xzx/sorting/Selection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,13 +198,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Chapter1">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Chapter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.practice.Chapter1" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algorithms.xzx.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCodeArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.array.LeetCodeArr" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.xzx.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,8 +235,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.Selection" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.MergeSort" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -255,19 +261,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteAndReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.file.WriteAndReadFile" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.xzx.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -283,18 +276,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Selection" />
-      <item itemvalue="Application.WriteAndReadFile" />
       <item itemvalue="Application.Shell" />
       <item itemvalue="Application.Chapter1" />
+      <item itemvalue="Application.LeetCodeArr" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Shell" />
+        <item itemvalue="Application.LeetCodeArr" />
         <item itemvalue="Application.Chapter1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.Shell" />
-        <item itemvalue="Application.WriteAndReadFile" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +306,9 @@
       <workItem from="1534846124794" duration="5368000" />
       <workItem from="1534904993932" duration="8301000" />
       <workItem from="1609325698288" duration="830000" />
-      <workItem from="1609326604932" duration="5421000" />
+      <workItem from="1609326604932" duration="5488000" />
+      <workItem from="1609647310693" duration="10593000" />
+      <workItem from="1609733511297" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -343,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609326096168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update for nothing 2020.12.30">
+      <created>1609334067012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609334067012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -401,6 +403,21 @@
     <MESSAGE value="update for nothing 2020.12.30" />
     <option name="LAST_COMMIT_MESSAGE" value="update for nothing 2020.12.30" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/xzx/sorting/Shell.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
