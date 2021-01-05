@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode 旋转图像">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/string/Atoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode 字符串转换整数 (atoi)">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/string/CountAndSay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/xzx/array/LeetCodeArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/array/LeetCodeArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +198,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Atoi">
+  <component name="RunManager" selected="Application.CountAndSay">
     <configuration name="Atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.string.Atoi" />
       <module name="algorithms" />
@@ -214,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.practice.Chapter1" />
+    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.string.CountAndSay" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.xzx.practice.*" />
+          <option name="PATTERN" value="com.leetcode.xzx.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,33 +264,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Shell" />
-      <item itemvalue="Application.Chapter1" />
       <item itemvalue="Application.LeetCodeArr" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.Atoi" />
+      <item itemvalue="Application.CountAndSay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.Atoi" />
         <item itemvalue="Application.LeetCodeArr" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Shell" />
-        <item itemvalue="Application.Chapter1" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +309,8 @@
       <workItem from="1609325698288" duration="830000" />
       <workItem from="1609326604932" duration="5488000" />
       <workItem from="1609647310693" duration="10593000" />
-      <workItem from="1609733511297" duration="8750000" />
+      <workItem from="1609733511297" duration="9471000" />
+      <workItem from="1609819577891" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -364,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609738135805</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LeetCode 字符串转换整数 (atoi)">
+      <created>1609757567946</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609757567946</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -428,7 +432,8 @@
     <MESSAGE value="update for nothing 2020.12.30" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="LeetCode 旋转图像" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 旋转图像" />
+    <MESSAGE value="LeetCode 字符串转换整数 (atoi)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 字符串转换整数 (atoi)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -441,13 +446,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/string/Atoi.java</url>
-          <line>40</line>
+          <line>46</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/string/Atoi.java</url>
-          <line>35</line>
+          <line>41</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/string/CountAndSay.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
