@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode 38. 外观数列">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/linklist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/linklist/ReverseList.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="剑指 Offer 24. 反转链表">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/linklist/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +198,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.ReverseList">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="Atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.string.Atoi" />
       <module name="algorithms" />
@@ -239,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.MergeSort" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.linklist.Palindrome" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.xzx.sorting.*" />
+          <option name="PATTERN" value="com.leetcode.xzx.linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,20 +264,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LeetCodeArr" />
-      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.Atoi" />
       <item itemvalue="Application.CountAndSay" />
       <item itemvalue="Application.ReverseList" />
+      <item itemvalue="Application.Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.Atoi" />
         <item itemvalue="Application.LeetCodeArr" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +313,7 @@
       <workItem from="1609647310693" duration="10593000" />
       <workItem from="1609733511297" duration="9471000" />
       <workItem from="1609819577891" duration="11843000" />
-      <workItem from="1609899377737" duration="601000" />
+      <workItem from="1609899377737" duration="2833000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -366,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609847546542</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="剑指 Offer 24. 反转链表">
+      <created>1609926811824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609926811824</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -432,7 +451,8 @@
     <MESSAGE value="LeetCode 旋转图像" />
     <MESSAGE value="LeetCode 字符串转换整数 (atoi)" />
     <MESSAGE value="LeetCode 38. 外观数列" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 38. 外观数列" />
+    <MESSAGE value="剑指 Offer 24. 反转链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指 Offer 24. 反转链表" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -463,9 +483,18 @@
           <line>23</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/linklist/Palindrome.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="17" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
