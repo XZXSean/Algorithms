@@ -7,21 +7,24 @@ import java.util.*;
  * @create: 2021/1/6 21:01
  **/
 
-public class TreeDepth {
+public class Tree {
 
     public static void main(String[] args) {
-        TreeNode treeNode = new TreeNode(3);
-        treeNode.left = new TreeNode(9);
-//        treeNode.left.left = new TreeNode(1);
-        treeNode.right = new TreeNode(20);
-        treeNode.right.left = new TreeNode(15);
-        treeNode.right.right = new TreeNode(7);
-        TreeNode.LevelOrderShow(treeNode);
-//        System.out.println(isValidBST(treeNode));
-        List<List<Integer>> lists = levelOrder(treeNode);
-        for (List<Integer> list : lists) {
-            System.out.println(list.toString());
-        }
+//        TreeNode treeNode = new TreeNode(3);
+//        treeNode.left = new TreeNode(9);
+////        treeNode.left.left = new TreeNode(1);
+//        treeNode.right = new TreeNode(20);
+//        treeNode.right.left = new TreeNode(15);
+//        treeNode.right.right = new TreeNode(7);
+//        TreeNode.LevelOrderShow(treeNode);
+////        System.out.println(isValidBST(treeNode));
+//        List<List<Integer>> lists = levelOrder(treeNode);
+//        for (List<Integer> list : lists) {
+//            System.out.println(list.toString());
+//        }
+        int[] nums = {-10, -3, 0, 5, 9};
+        TreeNode root = sortedArrayToBST(nums);
+        TreeNode.LevelOrderShow(root);
     }
 
     /**
@@ -73,7 +76,7 @@ public class TreeDepth {
         List<Integer> level = new ArrayList<>(); // 某一层
         Queue<TreeNode> queue = new LinkedList<>(); // 遍历队列
         queue.offer(root);
-        int levelSize = 0; // 当前某一层的节点个数
+        int levelSize; // 当前某一层的节点个数
         TreeNode node;
         while (!queue.isEmpty()) {
             levelSize = queue.size();
@@ -92,4 +95,22 @@ public class TreeDepth {
         return tree;
     }
 
+    /**
+     * 将有序数组转换为二叉搜索树
+     *
+     * @param nums
+     * @return
+     */
+    public static TreeNode sortedArrayToBST(int[] nums) {
+        return createBST(nums, 0, nums.length - 1);
+    }
+
+    public static TreeNode createBST(int[] nums, int low, int high) {
+        if (low > high) return null;
+        int mid = (low + high) / 2;
+        TreeNode node = new TreeNode(nums[mid]);
+        node.left = createBST(nums, low, mid - 1);
+        node.right = createBST(nums, mid + 1, high);
+        return node;
+    }
 }
