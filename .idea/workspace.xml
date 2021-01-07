@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：141. 环形链表">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/tree/TreeDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/tree/TreeNode.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：98. 验证二叉搜索树">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/xzx/tree/TreeDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/tree/TreeDepth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,15 +264,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -314,7 +311,8 @@
       <workItem from="1609647310693" duration="10593000" />
       <workItem from="1609733511297" duration="9471000" />
       <workItem from="1609819577891" duration="11843000" />
-      <workItem from="1609899377737" duration="11322000" />
+      <workItem from="1609899377737" duration="12041000" />
+      <workItem from="1609991968804" duration="2102000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -400,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609937948676</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="LeetCode：98. 验证二叉搜索树">
+      <created>1609947137043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609947137043</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -469,7 +474,8 @@
     <MESSAGE value="剑指 Offer 24. 反转链表" />
     <MESSAGE value="LeetCode：234. 回文链表数组求解" />
     <MESSAGE value="LeetCode：141. 环形链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：141. 环形链表" />
+    <MESSAGE value="LeetCode：98. 验证二叉搜索树" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：98. 验证二叉搜索树" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

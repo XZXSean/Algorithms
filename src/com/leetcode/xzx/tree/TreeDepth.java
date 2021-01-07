@@ -1,6 +1,6 @@
 package com.leetcode.xzx.tree;
 
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author: zhixiang.xiao
@@ -10,14 +10,18 @@ import java.util.Stack;
 public class TreeDepth {
 
     public static void main(String[] args) {
-        TreeNode treeNode = new TreeNode(5);
-        treeNode.left = new TreeNode(Integer.MIN_VALUE);
+        TreeNode treeNode = new TreeNode(3);
+        treeNode.left = new TreeNode(9);
 //        treeNode.left.left = new TreeNode(1);
-        treeNode.right = new TreeNode(6);
-        treeNode.right.left = new TreeNode(3);
+        treeNode.right = new TreeNode(20);
+        treeNode.right.left = new TreeNode(15);
         treeNode.right.right = new TreeNode(7);
         TreeNode.LevelOrderShow(treeNode);
-        System.out.println(isValidBST(treeNode));
+//        System.out.println(isValidBST(treeNode));
+        List<List<Integer>> lists = levelOrder(treeNode);
+        for (List<Integer> list : lists) {
+            System.out.println(list.toString());
+        }
     }
 
     /**
@@ -56,4 +60,36 @@ public class TreeDepth {
         }
         return true;
     }
+
+    /**
+     * 层序遍历
+     *
+     * @param root
+     * @return
+     */
+    public static List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> tree = new ArrayList<>();
+        if (root == null) return tree;
+        List<Integer> level = new ArrayList<>(); // 某一层
+        Queue<TreeNode> queue = new LinkedList<>(); // 遍历队列
+        queue.offer(root);
+        int levelSize = 0; // 当前某一层的节点个数
+        TreeNode node;
+        while (!queue.isEmpty()) {
+            levelSize = queue.size();
+            while (levelSize > 0) {
+                node = queue.poll();
+                if (node != null) {
+                    level.add(node.val); // 访问该节点
+                    queue.offer(node.left);
+                    queue.offer(node.right);
+                }
+                levelSize--;
+            }
+            if (!level.isEmpty()) tree.add(level);
+            level = new ArrayList<>();
+        }
+        return tree;
+    }
+
 }
