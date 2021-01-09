@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：70. 爬楼梯">
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：121. 买卖股票的最佳时机">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/dynamic/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +198,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MaxProfit">
+  <component name="RunManager" selected="Application.MaxSubArray">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.ClimbStairs" />
       <module name="algorithms" />
@@ -237,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.array.MergeTwoArray" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.MaxSubArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -250,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.linklist.Palindrome" />
+    <configuration name="MergeTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.array.MergeTwoArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.linklist.*" />
+          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,19 +276,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.CycleList" />
       <item itemvalue="Application.MergeTwoArray" />
       <item itemvalue="Application.ClimbStairs" />
       <item itemvalue="Application.MaxProfit" />
+      <item itemvalue="Application.MaxSubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.MergeTwoArray" />
         <item itemvalue="Application.CycleList" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +314,7 @@
       <workItem from="1609899377737" duration="12041000" />
       <workItem from="1609991968804" duration="11496000" />
       <workItem from="1610103031061" duration="3857000" />
+      <workItem from="1610186285512" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -433,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610108640693</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LeetCode：121. 买卖股票的最佳时机">
+      <created>1610186521490</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610186521490</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -507,7 +516,8 @@
     <MESSAGE value="LeetCode：108. 将有序数组转换为二叉搜索树" />
     <MESSAGE value="LeetCode：88. 合并两个有序数组" />
     <MESSAGE value="LeetCode：70. 爬楼梯" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：70. 爬楼梯" />
+    <MESSAGE value="LeetCode：121. 买卖股票的最佳时机" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：121. 买卖股票的最佳时机" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -554,7 +564,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/array/ClimbStairs.java</url>
+          <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/dynamic/ClimbStairs.java</url>
           <line>25</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
