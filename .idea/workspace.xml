@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：88. 合并两个有序数组">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/array/ClimbStairs.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：70. 爬楼梯">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,13 +197,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.ClimbStairs">
+  <component name="RunManager" selected="Application.MaxProfit">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.array.ClimbStairs" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.ClimbStairs" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.array.*" />
+          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +224,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.MaxProfit" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.array.MergeTwoArray" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.array.*" />
+          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,46 +263,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.linklist.ReverseList" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseList" />
       <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.CycleList" />
       <item itemvalue="Application.MergeTwoArray" />
       <item itemvalue="Application.ClimbStairs" />
+      <item itemvalue="Application.MaxProfit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.MergeTwoArray" />
         <item itemvalue="Application.CycleList" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.ReverseList" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +312,7 @@
       <workItem from="1609819577891" duration="11843000" />
       <workItem from="1609899377737" duration="12041000" />
       <workItem from="1609991968804" duration="11496000" />
-      <workItem from="1610103031061" duration="2663000" />
+      <workItem from="1610103031061" duration="3857000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -429,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610018620574</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="LeetCode：70. 爬楼梯">
+      <created>1610108640693</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610108640693</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -502,7 +506,8 @@
     <MESSAGE value="LeetCode：102. 二叉树的层序遍历队列实现和递归实现" />
     <MESSAGE value="LeetCode：108. 将有序数组转换为二叉搜索树" />
     <MESSAGE value="LeetCode：88. 合并两个有序数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：88. 合并两个有序数组" />
+    <MESSAGE value="LeetCode：70. 爬楼梯" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：70. 爬楼梯" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

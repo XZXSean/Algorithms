@@ -1,4 +1,4 @@
-package com.leetcode.xzx.array;
+package com.leetcode.xzx.dynamic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
