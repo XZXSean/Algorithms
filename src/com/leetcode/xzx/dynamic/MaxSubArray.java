@@ -63,7 +63,7 @@ public class MaxSubArray {
                 memo[i] = Math.max(memo[i - 2] + nums[i], memo[i - 1]);
             }
         }
-        Arrays.sort(memo);
+        Arrays.sort(memo); // 排序后取最大值
         return memo[n - 1];
     }
 }
