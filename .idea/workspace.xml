@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：412. Fizz Buzz">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：204. 计数质数">
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +316,7 @@
       <workItem from="1609991968804" duration="11496000" />
       <workItem from="1610103031061" duration="3857000" />
       <workItem from="1610186285512" duration="4530000" />
-      <workItem from="1610531936811" duration="1328000" />
+      <workItem from="1610531936811" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -473,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610194357567</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LeetCode：204. 计数质数">
+      <created>1610533391139</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610533391140</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -551,7 +557,8 @@
     <MESSAGE value="LeetCode：53. 最大子序和" />
     <MESSAGE value="LeetCode：198. 打家劫舍" />
     <MESSAGE value="LeetCode：412. Fizz Buzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：412. Fizz Buzz" />
+    <MESSAGE value="LeetCode：204. 计数质数" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：204. 计数质数" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -604,7 +611,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java</url>
-          <line>22</line>
+          <line>36</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

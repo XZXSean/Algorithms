@@ -11,6 +11,20 @@ public class PrimeNumber {
         System.out.println(countPrimes_violence(3));
         System.out.println(countPrimes_violence2(3));
         System.out.println(countPrimes_filter(3));
+        System.out.println(isPowerOfThree(2));
+    }
+
+    /**
+     * 判断它是否是 3 的幂次方。如果是，返回 true ；否则，返回 false
+     *
+     * @param n
+     * @return
+     */
+    public static boolean isPowerOfThree(int n) {
+        while (n >= 2 && n % 3 == 0) {
+            n = n / 3;
+        }
+        return n == 1;
     }
 
     /**
