@@ -9,9 +9,10 @@ import com.algorithms.xzx.file.WriteAndReadFile;
 public class Shell {
     /**
      * 分成 h，用插入排序完成
+     *
      * @param a
      */
-    public static void sort(int[] a) {
+    public static void shellSort(int[] a) {
         // 升序
         int N = a.length;
         int h = 1;
@@ -31,7 +32,7 @@ public class Shell {
 
     public static void main(String[] args) {
         int[] a = WriteAndReadFile.readFromFile();
-        sort(a);
+        shellSort(a);
         WriteAndReadFile.show(a);
     }
 }
