@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="LeetCode：204. 计数质数">
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1002: 安全密码">
+      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/test2013/KruskalGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weektest1038/PIPI9Commander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weektest1038/PIPISign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,13 +200,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
-    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.ClimbStairs" />
+  <component name="RunManager" selected="Application.SecurityPassword">
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.Insertion" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
+          <option name="PATTERN" value="com.algorithms.xzx.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.MaxProfit" />
+    <configuration name="Narcissus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.test2013.Narcissus" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
+          <option name="PATTERN" value="com.pipi.xzx.test2013.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.dynamic.MaxSubArray" />
+    <configuration name="PIPI9Commander" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.weektest1038.PIPI9Commander" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
+          <option name="PATTERN" value="com.pipi.xzx.weektest1038.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.array.MergeTwoArray" />
+    <configuration name="PIPISign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.weektest1038.PIPISign" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.dynamic.*" />
+          <option name="PATTERN" value="com.pipi.xzx.weektest1038.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.xzx.math.PrimeNumber" />
+    <configuration name="SecurityPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.test2013.SecurityPassword" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.xzx.math.*" />
+          <option name="PATTERN" value="com.pipi.xzx.test2013.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +280,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeTwoArray" />
-      <item itemvalue="Application.ClimbStairs" />
-      <item itemvalue="Application.MaxProfit" />
-      <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.PrimeNumber" />
+      <item itemvalue="Application.PIPI9Commander" />
+      <item itemvalue="Application.PIPISign" />
+      <item itemvalue="Application.Insertion" />
+      <item itemvalue="Application.Narcissus" />
+      <item itemvalue="Application.SecurityPassword" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.ClimbStairs" />
-        <item itemvalue="Application.MergeTwoArray" />
+        <item itemvalue="Application.SecurityPassword" />
+        <item itemvalue="Application.Narcissus" />
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.PIPISign" />
+        <item itemvalue="Application.PIPI9Commander" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +319,9 @@
       <workItem from="1609991968804" duration="11496000" />
       <workItem from="1610103031061" duration="3857000" />
       <workItem from="1610186285512" duration="4530000" />
-      <workItem from="1610531936811" duration="1720000" />
+      <workItem from="1610531936811" duration="7585000" />
+      <workItem from="1610597780101" duration="7639000" />
+      <workItem from="1610707913207" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -479,7 +484,42 @@
       <option name="project" value="LOCAL" />
       <updated>1610533391140</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="LeetCode：326. 3的幂">
+      <created>1610533679638</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610533679638</updated>
+    </task>
+    <task id="LOCAL-00025" summary="插入排序优化：二分法插入排序">
+      <created>1610618981110</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610618981110</updated>
+    </task>
+    <task id="LOCAL-00026" summary="PIPI: 1000: 回文串问题">
+      <created>1610625223786</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610625223786</updated>
+    </task>
+    <task id="LOCAL-00027" summary="PIPI: 1001: 水仙花数">
+      <created>1610635296319</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610635296319</updated>
+    </task>
+    <task id="LOCAL-00028" summary="PIPI: 1002: 安全密码">
+      <created>1610635379754</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610635379754</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -558,7 +598,12 @@
     <MESSAGE value="LeetCode：198. 打家劫舍" />
     <MESSAGE value="LeetCode：412. Fizz Buzz" />
     <MESSAGE value="LeetCode：204. 计数质数" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode：204. 计数质数" />
+    <MESSAGE value="LeetCode：326. 3的幂" />
+    <MESSAGE value="插入排序优化：二分法插入排序" />
+    <MESSAGE value="PIPI: 1000: 回文串问题" />
+    <MESSAGE value="PIPI: 1001: 水仙花数" />
+    <MESSAGE value="PIPI: 1002: 安全密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1002: 安全密码" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -566,7 +611,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/algorithms/xzx/sorting/Shell.java</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -611,8 +656,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/xzx/math/PrimeNumber.java</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pipi/xzx/weektest1038/PIPI9Commander.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pipi/xzx/weektest1038/PIPISign.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
