@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1005: 成绩转换" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1006: 平方和与立方和">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +317,7 @@
       <workItem from="1610531936811" duration="7585000" />
       <workItem from="1610597780101" duration="7639000" />
       <workItem from="1610707913207" duration="2195000" />
-      <workItem from="1610791305542" duration="998000" />
+      <workItem from="1610791305542" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -527,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610791771168</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="PIPI: 1006: 平方和与立方和">
+      <created>1610792420646</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610792420646</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -587,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update for nothing 2020.12.30" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="LeetCode 旋转图像" />
     <MESSAGE value="LeetCode 字符串转换整数 (atoi)" />
@@ -612,7 +620,8 @@
     <MESSAGE value="PIPI: 1002: 安全密码" />
     <MESSAGE value="PIPI: 1004: 惠民工程" />
     <MESSAGE value="PIPI: 1005: 成绩转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1005: 成绩转换" />
+    <MESSAGE value="PIPI: 1006: 平方和与立方和" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1006: 平方和与立方和" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
