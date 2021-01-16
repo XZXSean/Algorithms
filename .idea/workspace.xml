@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1002: 安全密码">
-      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/test2013/KruskalGraph.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1004: 惠民工程">
+      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/test2014/Score.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weektest1038/PIPI9Commander.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weektest1038/PIPISign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -266,15 +266,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,7 +319,8 @@
       <workItem from="1610186285512" duration="4530000" />
       <workItem from="1610531936811" duration="7585000" />
       <workItem from="1610597780101" duration="7639000" />
-      <workItem from="1610707913207" duration="2074000" />
+      <workItem from="1610707913207" duration="2195000" />
+      <workItem from="1610791305542" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -519,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610635379754</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="PIPI: 1004: 惠民工程">
+      <created>1610724868355</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610724868355</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -603,7 +609,8 @@
     <MESSAGE value="PIPI: 1000: 回文串问题" />
     <MESSAGE value="PIPI: 1001: 水仙花数" />
     <MESSAGE value="PIPI: 1002: 安全密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1002: 安全密码" />
+    <MESSAGE value="PIPI: 1004: 惠民工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1004: 惠民工程" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
