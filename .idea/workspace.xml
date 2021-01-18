@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1007: 破译密码">
-      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/test2014/MaxSubSequence.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1008: 最大连续子序列暴力求解和动态规划求解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,15 +263,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,7 +318,8 @@
       <workItem from="1610597780101" duration="7639000" />
       <workItem from="1610707913207" duration="2195000" />
       <workItem from="1610791305542" duration="3964000" />
-      <workItem from="1610856022604" duration="6471000" />
+      <workItem from="1610856022604" duration="7713000" />
+      <workItem from="1610964165355" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -547,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610794329511</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="PIPI: 1008: 最大连续子序列暴力求解和动态规划求解">
+      <created>1610885534042</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610885534042</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -607,7 +612,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode 旋转图像" />
     <MESSAGE value="LeetCode 字符串转换整数 (atoi)" />
     <MESSAGE value="LeetCode 38. 外观数列" />
     <MESSAGE value="剑指 Offer 24. 反转链表" />
@@ -632,7 +636,8 @@
     <MESSAGE value="PIPI: 1005: 成绩转换" />
     <MESSAGE value="PIPI: 1006: 平方和与立方和" />
     <MESSAGE value="PIPI: 1007: 破译密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1007: 破译密码" />
+    <MESSAGE value="PIPI: 1008: 最大连续子序列暴力求解和动态规划求解" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1008: 最大连续子序列暴力求解和动态规划求解" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -700,7 +705,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/pipi/xzx/test2014/MaxSubSequence.java</url>
-          <line>71</line>
+          <line>73</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
