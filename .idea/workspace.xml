@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1009: 安全路径">
-      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weeklygame1/PIPIStringIX.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1463: PIPI的字符串问题IX">
+      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weeklygame1/BigOrSmallPIPI2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -264,17 +264,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PIPISign" />
       <item itemvalue="Application.Insertion" />
@@ -320,7 +309,8 @@
       <workItem from="1610707913207" duration="2195000" />
       <workItem from="1610791305542" duration="3964000" />
       <workItem from="1610856022604" duration="7713000" />
-      <workItem from="1610964165355" duration="1992000" />
+      <workItem from="1610964165355" duration="3419000" />
+      <workItem from="1611030197554" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -560,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610966517157</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="PIPI: 1463: PIPI的字符串问题IX">
+      <created>1610971166906</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610971166906</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -620,7 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode 38. 外观数列" />
     <MESSAGE value="剑指 Offer 24. 反转链表" />
     <MESSAGE value="LeetCode：234. 回文链表数组求解" />
     <MESSAGE value="LeetCode：141. 环形链表" />
@@ -645,7 +641,8 @@
     <MESSAGE value="PIPI: 1007: 破译密码" />
     <MESSAGE value="PIPI: 1008: 最大连续子序列暴力求解和动态规划求解" />
     <MESSAGE value="PIPI: 1009: 安全路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1009: 安全路径" />
+    <MESSAGE value="PIPI: 1463: PIPI的字符串问题IX" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1463: PIPI的字符串问题IX" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
