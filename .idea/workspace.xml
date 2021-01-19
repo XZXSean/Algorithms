@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1463: PIPI的字符串问题IX">
-      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weeklygame1/BigOrSmallPIPI2.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1464: 大小PIPIⅡ 时间超限">
+      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weeklygame1/PickRubbish2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +198,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MaxSubSequence">
+  <component name="RunManager" selected="Application.PickRubbish2">
     <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.Insertion" />
       <module name="algorithms" />
@@ -238,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PIPISign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.weektest1038.PIPISign" />
+    <configuration name="PickRubbish2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.weeklygame1.PickRubbish2" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pipi.xzx.weektest1038.*" />
+          <option name="PATTERN" value="com.pipi.xzx.weeklygame1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,20 +264,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.PIPISign" />
       <item itemvalue="Application.Insertion" />
       <item itemvalue="Application.Narcissus" />
       <item itemvalue="Application.SecurityPassword" />
       <item itemvalue="Application.MaxSubSequence" />
+      <item itemvalue="Application.PickRubbish2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PickRubbish2" />
         <item itemvalue="Application.MaxSubSequence" />
         <item itemvalue="Application.SecurityPassword" />
         <item itemvalue="Application.Narcissus" />
         <item itemvalue="Application.Insertion" />
-        <item itemvalue="Application.PIPISign" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +323,7 @@
       <workItem from="1610791305542" duration="3964000" />
       <workItem from="1610856022604" duration="7713000" />
       <workItem from="1610964165355" duration="3419000" />
-      <workItem from="1611030197554" duration="597000" />
+      <workItem from="1611030197554" duration="2037000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -557,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610971166906</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="PIPI: 1464: 大小PIPIⅡ 时间超限">
+      <created>1611031626761</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611031626761</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -617,7 +637,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指 Offer 24. 反转链表" />
     <MESSAGE value="LeetCode：234. 回文链表数组求解" />
     <MESSAGE value="LeetCode：141. 环形链表" />
     <MESSAGE value="LeetCode：98. 验证二叉搜索树" />
@@ -642,7 +661,8 @@
     <MESSAGE value="PIPI: 1008: 最大连续子序列暴力求解和动态规划求解" />
     <MESSAGE value="PIPI: 1009: 安全路径" />
     <MESSAGE value="PIPI: 1463: PIPI的字符串问题IX" />
-    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1463: PIPI的字符串问题IX" />
+    <MESSAGE value="PIPI: 1464: 大小PIPIⅡ 时间超限" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1464: 大小PIPIⅡ 时间超限" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
