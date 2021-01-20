@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1464: 大小PIPIⅡ 时间超限">
-      <change afterPath="$PROJECT_DIR$/src/com/pipi/xzx/weeklygame1/PickRubbish2.java" afterDir="false" />
+    <list default="true" id="c09936f2-e929-4d2f-b35a-3d508a9f4439" name="Default" comment="PIPI: 1466: PIPI捡垃圾Ⅱ 时间超限">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,20 +197,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.PickRubbish2">
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.xzx.sorting.Insertion" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.xzx.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RainBow">
     <configuration name="MaxSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.test2014.MaxSubSequence" />
       <module name="algorithms" />
@@ -251,6 +237,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RainBow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.summerpackage2020.RainBow" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pipi.xzx.summerpackage2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecurityPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pipi.xzx.test2013.SecurityPassword" />
       <module name="algorithms" />
@@ -264,33 +263,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Insertion" />
       <item itemvalue="Application.Narcissus" />
       <item itemvalue="Application.SecurityPassword" />
       <item itemvalue="Application.MaxSubSequence" />
       <item itemvalue="Application.PickRubbish2" />
+      <item itemvalue="Application.RainBow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RainBow" />
         <item itemvalue="Application.PickRubbish2" />
         <item itemvalue="Application.MaxSubSequence" />
         <item itemvalue="Application.SecurityPassword" />
         <item itemvalue="Application.Narcissus" />
-        <item itemvalue="Application.Insertion" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +320,8 @@
       <workItem from="1610791305542" duration="3964000" />
       <workItem from="1610856022604" duration="7713000" />
       <workItem from="1610964165355" duration="3419000" />
-      <workItem from="1611030197554" duration="2037000" />
+      <workItem from="1611030197554" duration="5053000" />
+      <workItem from="1611137507994" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithms Fourth Edition&#10;算法（第4版） 谢路云译">
       <created>1534915080682</created>
@@ -577,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611031626761</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="PIPI: 1466: PIPI捡垃圾Ⅱ 时间超限">
+      <created>1611056562340</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1611056562340</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -637,7 +642,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode：234. 回文链表数组求解" />
     <MESSAGE value="LeetCode：141. 环形链表" />
     <MESSAGE value="LeetCode：98. 验证二叉搜索树" />
     <MESSAGE value="LeetCode：102. 二叉树的层序遍历队列实现和递归实现" />
@@ -662,7 +666,8 @@
     <MESSAGE value="PIPI: 1009: 安全路径" />
     <MESSAGE value="PIPI: 1463: PIPI的字符串问题IX" />
     <MESSAGE value="PIPI: 1464: 大小PIPIⅡ 时间超限" />
-    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1464: 大小PIPIⅡ 时间超限" />
+    <MESSAGE value="PIPI: 1466: PIPI捡垃圾Ⅱ 时间超限" />
+    <option name="LAST_COMMIT_MESSAGE" value="PIPI: 1466: PIPI捡垃圾Ⅱ 时间超限" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
