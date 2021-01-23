@@ -13,13 +13,41 @@ import java.util.Scanner;
 public class ClimbStairs {
 
 	public static void main(String[] args) {
-		int[] cost = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
+		int[] cost = { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 };
 		System.out.println(minCostClimbingStairs(cost));
+		System.out.println(waysToStep(61));
 //		Scanner inScanner = new Scanner(System.in);
 //		while (inScanner.hasNext()) {
 //			int num = inScanner.nextInt();
 //			System.out.println(climbStairs(num));
 //		}
+	}
+
+	/**
+	 * 面试题 08.01. 三步问题:https://leetcode-cn.com/problems/three-steps-problem-lcci/
+	 * 数组dp 代表每个位置的方法次数 dp[0] = 1; // 1步 dp[1] = 2; // 1 or 2 步 dp[2] = 4; // 3个1步
+	 * or 1步+2步 or 2步+1步 or 3步
+	 * 
+	 * @param n
+	 * @return
+	 */
+	public static int waysToStep(int n) {
+		if (n == 0)
+			return 0;
+		if (n == 1)
+			return 1;
+		if (n == 2)
+			return 2;
+		if (n == 3)
+			return 4;
+		long[] dp = new long[n];
+		dp[0] = 1;
+		dp[1] = 2;
+		dp[2] = 4;
+		for (int i = 3; i < n; i++) {
+			dp[i] = (dp[i - 3] + dp[i - 2] + dp[i - 1]) % 1000000007;
+		}
+		return (int)dp[n - 1];
 	}
 
 	/**
